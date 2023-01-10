@@ -1,9 +1,5 @@
 describe('create new user', () => {
-    var user = {
-        "name": "prakasa",
-        "job": "leader"
-    }
-
+    
     it('create new user', () => {
         cy.request({
             method : 'POST',
